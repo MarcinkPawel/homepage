@@ -1,0 +1,17 @@
+.article {
+    margin-bottom: 50px;
+}
+
+.article__heading {
+    color: #000;
+    background-color: rgb(248, 134, 74);
+    border-radius: 30px;
+}
+
+.article__content {
+    text-align: justify;
+}
+
+.article--sectionOff {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}

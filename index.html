@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/table.css">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>Mały projekt o mnie!</title>
+</head>
+
+<body class="body">
+    <header class="header" id="main">
+        <button class="button"><span class="magic">Let the night come!</span></button>
+        <input type="number" name="hour" class="clock" max="24" step="1" placeholder="Give me the time (full hour)">
+        <h1>Homework module 3</h1>
+    </header>
+    <nav class="nav">
+        <ul class="nav__buttons">
+            <li> <a class="nav__link" href="#main"> Main</a></li>
+            <li><a class="nav__link" href="#myPicture">Picture of me</a></li>
+            <li><a class="nav__link" href="#about">About</a></li>
+            <li><a class="nav__link" href="#How_to_study_a_language">How to study a language</a></li>
+            <li><a class="nav__link" href="#experience">Programming EXP</a></li>
+            <li><a class="nav__link" href="#tableChart">UK's chart</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="heading" id="myPicture">Paweł Marcinkowski</h2>
+        <img src="https://i.postimg.cc/6q3h2ZTd/pawel-Marcinkowski.jpg" alt="Paweł Marcinkowski" class="picture">
+
+        <section class="section">
+            <article class="article" id="about">
+                <h2 class="article__heading">About</h2>
+                <p class="article__content">Hi everyone I'm <strong>Paweł Marcinkowski</strong>,
+                    I have already been teaching English for over 8 years.
+                    I ran my own language school and I even have some experience with teaching programmers and graphic
+                    designers,
+                    I hope that knowledge acquired during my work with IT students help me to smoothen the process of
+                    getting new skills.
+                </p>
+                <p class="article__content">
+                    Despite that I'm a great fun of board games and any kind of medieval rpg games.
+                    Once I was at high school I used to be Warhammer rpg game master.
+                    I'm rather creative person therefore it's quite easy for me to come up with some creative plots and
+                    scenarios.
+                </p>
+
+            </article>
+            <article class="article" id="How_to_study_a_language">
+                <h2 class="article__heading">How to study a language </h2>
+                <p class="article__content"><i>Always look for news about your hobby or field of interest in the target
+                        language.<br>
+                        Avoid learning about the language, practice is a key to success.<br>
+                        Try to incorporate emotions in you study, something funny, exciting
+                        or even interesting will stay in your head for much longer than a dull and irrelevant
+                        information.
+                    </i>
+                </p>
+            </article>
+            <article class="article article--sectionOff" id="experience">
+                <h2 class="article__heading">My previous experience</h2>
+                <p class="article__content">I have graduated from high school with Information Management profile and
+                    that is my
+                    main source of outdated,
+                    however not completely useless skills. I have been tring to learn more about front-end for few
+                    months by my own.
+                    Finally, I have come to my senses and enrolled to this course.
+                </p>
+            </article>
+        </section>
+        <section class="sectionTable">
+            <table class="table" id="tableChart">
+                <caption class="table__caption">Release date 01/10/2022</caption>
+                <thead>
+                    <tr>
+                        <th class="table__tableCell table__tableHeader" colspan="4" scope="row">The UK's biggest songs
+                            of the week
+                        </th>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="col">#</th>
+                        <th class="table__tableCell table__tableHeader" scope="col">Song Title</th>
+                        <th class="table__tableCell table__tableHeader" scope="col">Artist/Band</th>
+                        <th class="table__tableCell table__tableHeader" scope="col">Length</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">1</th>
+                        <td class="table__tableCell table__tableData">I'm Good</td>
+                        <td class="table__tableCell table__tableData">David Guetta, Bebe Rexha</td>
+                        <td class="table__tableCell table__tableData">2:55</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">2</th>
+                        <td class="table__tableCell table__tableData">Forget Me</td>
+                        <td class="table__tableCell table__tableData">Lewis Capaldi</td>
+                        <td class="table__tableCell table__tableData">3:23</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">3</th>
+                        <td class="table__tableCell table__tableData">B.O.T.A</td>
+                        <td class="table__tableCell table__tableData">Eliza Rose</td>
+                        <td class="table__tableCell table__tableData">5:58</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">4</th>
+                        <td class="table__tableCell table__tableData">I Ain't Worried</td>
+                        <td class="table__tableCell table__tableData">OneRepublic</td>
+                        <td class="table__tableCell table__tableData">2:28</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">5</th>
+                        <td class="table__tableCell table__tableData">Super Freaky Girl</td>
+                        <td class="table__tableCell table__tableData">Nicki Minaj</td>
+                        <td class="table__tableCell table__tableData">2:50</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">6</th>
+                        <td class="table__tableCell table__tableData">Ferrari</td>
+                        <td class="table__tableCell table__tableData">James Hype</td>
+                        <td class="table__tableCell table__tableData">3:06</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">7</th>
+                        <td class="table__tableCell table__tableData">Not Over Yet</td>
+                        <td class="table__tableCell table__tableData">KSI</td>
+                        <td class="table__tableCell table__tableData">2:35</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Copyrights reserved by Paweł Marcinkowski</p>
+    </footer>
+
+</body>
+
+</html>
