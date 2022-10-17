@@ -10,8 +10,8 @@
         const bodyElement = document.querySelector(".body");
         const magicElement = document.querySelector(".magic");
 
-        bodyElement.classList.toggle("dark");
-        magicElement.innerText = bodyElement.classList.contains(".body--dark") ? "Let the night come!" : "Let the day come!";
+        bodyElement.classList.toggle("js-dark");
+        magicElement.innerText = bodyElement.classList.contains("js-dark") ? "Let the day come!" : "Let the night come!";
     }
 
     buttonElement.addEventListener("click", onChangeBackgroundColor);
