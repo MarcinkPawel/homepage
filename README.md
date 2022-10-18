@@ -2,6 +2,8 @@
 
 The main idea of this project is to present myself and my progressing skills.
 
+[See the project](https://marcinkpawel.github.io/homepage/)
+
 ## Usage
 
 Page is easy to use and go through. Responsive layout allowes you read its content on any desktop and mobile devices.
