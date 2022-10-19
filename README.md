@@ -18,7 +18,7 @@ Its content was built with the use of my knowledge at that time.
  - CSS
  - JavaScript
  - Responsive Web Design
- - Normalizer
+ - Normalize
  - BEM
  
 ## Contribution
